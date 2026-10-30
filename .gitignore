@@ -1,0 +1,38 @@
+# .NET
+**/bin/
+**/obj/
+.vs/
+
+# React / Node
+**/node_modules/
+**/dist/
+**/.vite/
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Private data and uploads
+uploads/
+**/uploads/
+backups/
+**/backups/
+
+# Secrets
+.env
+.env.*
+!.env.example
+**/appsettings.Development.json
+**/appsettings.Production.json
+**/secrets.json
+*.pfx
+*.pem
+*.key
+
+# Editor and OS
+.vscode/*.log
+.DS_Store
+Thumbs.db
